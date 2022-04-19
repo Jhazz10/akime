@@ -1,0 +1,178 @@
+*{
+    margin-top: 0%;
+}
+
+#africa{
+    background-color: azure;
+}
+.about{
+position: absolute;
+height: 150%;
+width: 98%;
+top: -25px;
+
+
+}
+/* #mySidenav a {
+    position: absolute;
+    right: -90px;
+    text-align: right;
+    transition: 0.3s;
+    padding: 15px;
+    width: 100px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    border-radius: 5px 0 5px 0;
+  } */
+#political{
+    position: absolute;
+    left:10px;
+    height: 150%;
+    width: 60%;
+}
+h1{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 500%;
+    margin-left: 3%; 
+    margin-bottom: 0%;
+    letter-spacing: 1em;   
+}
+h3{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 200%;
+    letter-spacing: 10px; 
+    margin: 10px;  
+}
+li{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 200%;
+}
+p{
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+    margin: 10px;
+}
+table{
+    border-color: black;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 128%;
+    border-collapse: collapse;
+}
+th{
+padding-left: 1em;
+padding-right: 1em;
+font-size: 120%;
+padding-bottom: 2em;
+}
+td{
+    font-size: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;    
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+tr:nth-child(even) {
+    background-color:wheat;
+}
+a{
+    text-decoration: none;
+    color: black;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+a:hover{
+    background-color: gray;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+h2{
+    font-size: 500%;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 300;
+    letter-spacing: 10px;
+    text-align: center;
+    margin-bottom: 0%;
+}
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+   
+  }
+  
+  #myBtn:hover {
+    background-color: #555;
+  }
+
+
+.region{
+    height: 100%;
+    width: 100%; 
+   
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+#North{
+    background-color: beige;
+}
+#West{
+    background-color: rgba(255, 228, 196, 0.637);
+}
+#Central{
+    background-color: rgb(240, 202, 145);
+}
+.flag{
+    border:3px;
+    height: 60px;
+    width:100px;
+}
+#topnav {
+    overflow: hidden;
+    background-color: #333;
+    position: absolute;
+    right: 0%;
+    font-size: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  #topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 120%;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  #topnav a:hover{
+    background-color: aliceblue;
+    color:black;
+  }
+  #topnav a.active{
+   background-color: green; 
+  }
+   .more{
+     width: 25%;
+     text-align: left;
+     font-size: 30px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      
+      padding: 10px;
+      padding: 10px;
+  } 
+  a:hover{ 
+   background-color: #333;
+  } 

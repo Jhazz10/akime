@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="africa.css">
+    <title>africa</title>
+</head>
+<style>
+.tab {
+  float: left;
+  border: 1px solid white;
+  background-color: white;
+  width: 30%;
+  height: 300px;
+}
+.tab button {
+  display: block;
+  background-color: inherit;
+  color: black;
+  padding: 22px 16px;
+  width: 100%;
+  border: none;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 30px;
+}
+.tab button:hover {
+  background-color: #ddd;
+}
+.tab button.active {
+  background-color: #ccc;
+}
+.tabcontent {
+  position: absolute;
+  right: 0%;
+  float: left;
+  padding: 0px 12px;
+  font-size: 30px;
+  width: 68.5%;  
+  height: 200px;
+}
+</style>
+
+<div id="topnav">
+    <a href="/front.html" >World Map</a>
+    <a href="/map.html" >Map</a>
+    <a href="#" class="active">Africa</a>
+    <a href="/region.html"  >Regions</a>
+    <a href="/credits/credits.html" >Credits</a>      
+</div>  
+
+<div class="bg-image">
+        <body>
+<br>
+<br>
+<br>
+       <h1>AFRICA</h1>
+       <hr>
+        <p style="text-align: justify;">
+            Africa is the second-largest continent in the world in both area and population.
+            It is an almost entirely isolated landmass with only a small land bridge in the 
+            northeast, connecting the African Mainland with Western Asia. It covers six 
+            percent of the world's total surface area, roughly 30,244,000 km² (11,700,000  
+            mi²). Including its adjacent islands, the continent occupies about 20 percent of 
+            Earth's total land area. Africa's largest country is Algeria, followed by the
+            Democratic Republic of the Congo (Kinshasa) and Sudan. </p>
+        
+        <h3>More about Africa</h3>
+
+        <div class="tab">
+          <button class="tablinks" onclick="openCity(event, 'highest')" id="defaultOpen">Highest Point</button>
+          <button class="tablinks" onclick="openCity(event, 'lake')">Largest Lake</button>
+          <button class="tablinks" onclick="openCity(event, 'river')">Longest River</button>
+        </div>
+        
+        <div id="highest" class="tabcontent"> <img class="about" src="kilimanjaro.jpg">
+         <p style="position: absolute;top: 0%;">Africa's highest mountain is located in Tanzania. The million-year-old stratovolcano Mount Kilimanjaro 
+            has a height of 5,895 m (19,340 ft). The mountain has three volcanic cones Kibo, Mawenzi, and Shira. 
+            Uhuru Peak on Kibo is the mountain's highest point. The Batian peak of Mount Kenya at 3,825 m (12,549 ft) 
+            is Africa's second-highest mountain. </p>
+            
+        </div>
+        
+        <div id="lake" class="tabcontent"><img class="about" src="victoria.jpg">
+          <p style="position: absolute;top: 0%;">Lake Victoria or Victoria Nyanza is the largest of the African Great Lakes and the second-largest freshwater 
+            lake in the world. The source of the Nile River has a surface area of 68,800 km² (26,600 sq mi); it is shared
+            by Uganda, Kenya, and Tanzania.</p> 
+        </div>
+        
+        <div id="river" class="tabcontent"><img class="about" src="nile.jpg">
+          <p style="position: absolute;top: 0%;">The longest river in Africa is the Nile; at 6,695 km, it is also the longest river in the world. The Nile 
+            flows from its source south of the equator through eleven countries and empties into the Mediterranean Sea.</p>
+        </div>
+      
+        <script>
+        function openCity(evt, cityName) {
+          var i, tabcontent, tablinks;
+          tabcontent = document.getElementsByClassName("tabcontent");
+          for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+          }
+          tablinks = document.getElementsByClassName("tablinks");
+          for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+          }
+          document.getElementById(cityName).style.display = "block";
+          evt.currentTarget.className += " active";
+        }
+        document.getElementById("defaultOpen").click();
+        </script>
+  </div>
+</body>
+</html>

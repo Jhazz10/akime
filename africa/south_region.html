@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="africa.css">
+    <title>south_region</title>
+</head>
+
+<body>
+    <div id="topnav">
+        <a href="/front.html" >World Map</a>
+        <a href="/map.html" >Map</a>
+        <a href="/africa.html" >Africa</a>
+        <a href="/region.html" class="active" >Regions</a>
+        <a href="/credits/credits.html" >Credits</a>      
+    </div>  
+    
+        <h2>South Africa</h2>
+        <img class="region" src="/south/south.png">
+    <p>Southern Africa is the southern portion of the African continent, bounded by the South Atlantic Ocean in the west 
+       and the Indian Ocean in the east. The United Nations geoscheme lists five countries in Southern Africa, with a total 
+       population of about 68.3 million people (in 2021).
+     </p>
+        <table>
+            <tr>
+                <th>Flag</th>
+                <th>Country</th>
+                <th>Capital</th>
+                <th>Population</th>
+                <th>Description</th>
+            </tr>
+            <tr>
+                <td><img class="flag" src="/south/botswana.png"></td>
+                <td>Botswana</td>
+                <td>Gaborone</td>
+                <td>2,375</td>
+                <td style="text-align: justify;">A virtual guide to Botswana, a landlocked country in southern Africa. It 
+                    is bordered by Namibia, South Africa, and Zimbabwe. With an area of 582,000 sq km the country is 
+                    slightly larger than France, or slightly smaller than the U.S. state of Texas. Approximately two-thirds 
+                    of the country lies within the Tropics. Botswana is well known for having some of the best wilderness 
+                    and wildlife areas on the African continent. 38% of its total land area are devoted to national parks, 
+                    reserves and wildlife management areas.</td>
+            </tr>
+            <tr>
+                <td><img class="flag" src="/south/lesotho.png"></td>
+                <td>Lesotho</td>
+                <td>Maseru</td>
+                <td>2,293</td>
+                <td style="text-align: justify;">Destination Lesotho, a virtual travel guide to Lesotho. Lesotho, 
+                    country in Southern Africa. A scenic land of tall mountains and narrow valleys, Lesotho owes a 
+                    long history of political autonomy to the mountains that surround it and protect it from encroachment. 
+                    Since the Neolithic Period, the mountain kingdom was the domain of Khoisan-speaking hunter-gatherers. 
+                    In the 19th century the Sotho, led by Moshoeshoe I, took control of the region. It remained independent 
+                    until it became a British protectorate, one of three British High Commission Territories (the others 
+                    being Bechuanaland [now Botswana] and Swaziland).</td>
+            </tr>
+            <tr>
+                <td><img class="flag" src="/south/namibia.png"></td>
+                <td>Namibia</td>
+                <td>Windhoek</td>
+                <td>2,642</td>
+                <td style="text-align: justify;">Destination Namibia, a Nations Online country profile of the African 
+                    nation in the southwestern part of the continent. The country borders Botswana, Zambia, and Zimbabwe 
+                    and is bounded by the Atlantic Ocean in the west. The Orange River to the south marks the southern 
+                    border with South Africa. The Kunene River and the Okavango River create sections of the nation's 
+                    northern border with Angola. Only on 21 March 1990, Namibia gained independence from South Africa. 
+                    The country's name is derived from the Namib Desert.</td>
+            </tr>
+            <tr>
+                <td><img class="flag" src="/south/south_africa.png"></td>
+                <td>South Africa</td>
+                <td>Pretoria, Bloemfontein, Cape Town</td>
+                <td>58,065</td>
+                <td style="text-align: justify;">Destination South Africa, a Nations Online profile of the southernmost 
+                    country in Africa. The Rainbow Nation borders Botswana, Mozambique, Namibia, Swaziland and Zimbabwe. 
+                    The small Kingdom of Lesotho is enclosed as an enclave. The country covers an area of 1,221,000 km²; 
+                    compared; it is somewhat larger than two times the size of France, or slightly less than twice the 
+                    size of the US state of Texas.</td>
+            </tr>
+            <tr>
+                <td><img class="flag" src="/south/swaziland.gif"></td>
+                <td>Swaziland</td>
+                <td>Mbabane, Lobamba</td>
+                <td>1,415</td>
+                <td style="text-align: justify;">A virtual guide to Swaziland, the small landlocked kingdom in southern 
+                    Africa is bordered by South Africa and Mozambique. The country covers an area of 17,364 km², it is 
+                    one of Africa's smallest countries, slightly larger than half the size of Belgium, or slightly smaller 
+                    than the U.S. state of New Jersey.</td>
+            </tr>
+        </table>
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+        <script>
+        var mybutton = document.getElementById("myBtn");
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+          } else {
+            mybutton.style.display = "none";
+          }
+        }
+        function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+        </script>
+        <br>
+        <br>  
+</body>
+</html>

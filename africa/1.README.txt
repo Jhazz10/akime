@@ -1,0 +1,7 @@
+Instructions:
+
+	In order to run our project, please
+"Open Folder" the "africa" project name in
+Visual Studio Code and "Open Live Server" 
+first the "cover-page.html" file. Thank you
+and enjoy! 
